@@ -19,3 +19,6 @@ Types of Status:-
 add and commit
 add: to add anything    git add filename or git add .     (. means to add everything )
 commit: to commit       git commit -m "comment"
+
+push- now pushing changes from local (vscode) to remote (github)
+              ' git push origin main '
