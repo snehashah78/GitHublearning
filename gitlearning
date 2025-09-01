@@ -1,0 +1,17 @@
+all comands to write in terminal to execute
+clear: it will clear all previous commands given by users       clear
+cd: change or get into the directory                            cd filename
+ls: to get all files                                             ls
+ls -a:   to get hidden files reference                            ls -a
+
+clone and status              
+clone-     remote(github), global(vs code or laptop os pc)          copy files from github to vscode or laptop       
+ by copying HTTP address to  vscode terminal                          git clone copyaddress
+
+status-  to check the status of changes at both places                 git status
+If vscode content is changed then we have to "add and commit"
+Types of Status:-
+1. untracked- new file that is yet untracked    'new file'
+2. modified-  changed  
+3. staged- ready to commit                 ' add ' between case
+4. unmodified- unchanged                   commit
