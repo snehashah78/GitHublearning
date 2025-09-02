@@ -2,6 +2,7 @@ all comands to write in terminal to execute
 clear: it will clear all previous commands given by users       clear
 cd: change or get into the directory                            cd filename
 cd..  : coming out to the directory                             cd..
+mkdir  : make new directory
 ls: to get all files                                             ls
 ls -a:   to get hidden files reference                            ls -a
 
@@ -23,3 +24,11 @@ commit: to commit       git commit -m "comment"
 
 push- now pushing changes from local (vscode) to remote (github)
               ' git push origin main '
+
+git init: used to create new git repo
+git remote add origin link   :    to make a folder your origin or repo where yo have to add somthing
+git remote -v   : to check status of origin repo or to verify remote
+git branch :-
+Main branch or other branch      -- if want to make other branch as main branch 
+git branch -M main:                to rename the branch as main here main is user defined
+                             ' git push origin main '
