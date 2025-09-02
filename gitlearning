@@ -1,6 +1,7 @@
 all comands to write in terminal to execute
 clear: it will clear all previous commands given by users       clear
 cd: change or get into the directory                            cd filename
+cd..  : coming out to the directory                             cd..
 ls: to get all files                                             ls
 ls -a:   to get hidden files reference                            ls -a
 
