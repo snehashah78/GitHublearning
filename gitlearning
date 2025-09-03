@@ -28,7 +28,34 @@ push- now pushing changes from local (vscode) to remote (github)
 git init: used to create new git repo
 git remote add origin link   :    to make a folder your origin or repo where yo have to add somthing
 git remote -v   : to check status of origin repo or to verify remote
-git branch :-
-Main branch or other branch      -- if want to make other branch as main branch 
+git branch :-    
+Main branch or other branch      -- if want to make other branch as main branch (each branch will work differently with code and then merge the copy to main branch
 git branch -M main:                to rename the branch as main here main is user defined
                              ' git push origin main '
+
+Road Map of local git     gitHub repo < clone < changes < add < commit < Push
+git checkout <- branch name ->     to navigate from one branch to another
+git checkout -b <- new branch ->   to create new branch
+git branch -d <- ranch nme ->       to delete branch
+  git push origin feature : to push the changes 
+
+To merge other branch to main barnch
+Way 1:  git diff branch name               (to compare commits, branches, files and more)
+        git merge branch name              ( to merge to branhes)
+
+way 2 : by github  --> Pull Request 
+  Pull and merge from githuub
+
+now chenges transfer from github to vs code
+Pull Command - used to ftech and download content from a remote(git) and immediately update to local(vscode) to compare
+             git pull origin main
+
+Merge Conflicts
+
+
+
+
+
+
+
+
